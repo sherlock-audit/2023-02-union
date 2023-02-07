@@ -1,14 +1,14 @@
 {
-  "title": "Aave",
-  "starts_at": "2023-01-09 15:00",
-  "ends_at": "2023-01-12 15:00",
-  "judging_ends_at": "2023-01-15 15:00",
+  "title": "Union Finance Update",
+  "starts_at": "2023-02-08 15:00",
+  "ends_at": "2023-02-11 15:00",
+  "judging_ends_at": "2023-02-14 15:00",
   "prize_pool": "10000",
   "lead_senior_auditor_fixed_pay": "4000",
-  "short_description": "Aave is..",
-  "sponsor": "Aave",
-  "github_team": "aave",
-  "lines_of_code": "~321",
+  "short_description": "Union is a member-owned credit protocol built on Ethereum where members can underwrite lines of credit to other member addresses.",
+  "sponsor": "Union",
+  "github_team": "union",
+  "lines_of_code": "TBD",
   "private": false,
-  "lead_senior_auditor_handle": "WATCHPUG"
+  "lead_senior_auditor_handle": "hyh"
 }
