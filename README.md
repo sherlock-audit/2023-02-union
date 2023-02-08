@@ -12,16 +12,15 @@
 
 # On-chain context
 
-```
-DEPLOYMENT: Goerli, Optimism Goerli
-ERC20: DAI
-ERC721: none
-ERC777: none
-FEE-ON-TRANSFER: none
-REBASING TOKENS: none
-ADMIN: restricted
-EXTERNAL-ADMINS: restricted
-```
+- DEPLOYMENT: [Optimism Goerli](https://github.com/sherlock-audit/2023-02-union/blob/main/union-v2-contracts/deployments/optimism-goerli/deployment.json)
+- ERC20: [DAI](https://goerli-optimism.etherscan.io/address/0xD9662ae38fB577a3F6843b6b8EB5af3410889f3A)
+- ERC721: none
+- ERC777: none
+- FEE-ON-TRANSFER: none
+- REBASING TOKENS: none
+- ADMIN: restricted
+- EXTERNAL-ADMINS: restricted
+
 
 In case of restricted, by default Sherlock does not consider direct protocol rug pulls as a valid issue unless the protocol clearly describes in detail the conditions for these restrictions. 
 For contracts, owners, admins clearly distinguish the ones controlled by protocol vs user controlled. This helps watsons distinguish the risk factor. 
