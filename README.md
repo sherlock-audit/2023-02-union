@@ -1,4 +1,4 @@
-# {project} contest details
+# Union Finance contest details
 
 - Join [Sherlock Discord](https://discord.gg/MABEWyASkp)
 - Submit findings using the issue page in your private contest repo (label issues as med or high)
@@ -6,22 +6,21 @@
 
 # Resources
 
-- [resource1](url)
-- [resource2](url)
+- [Website](https://union.finance/)
+- [Docs](https://docs.union.finance/)
+- [Twitter](https://twitter.com/unionprotocol)
 
 # On-chain context
 
-TO FILL IN BY PROTOCOL
-
 ```
-DEPLOYMENT: [e.g. mainnet, arbitrum, optimism, ..]
-ERC20: [e.g. any, none, USDC, USDC and USDT]
-ERC721: [e.g. any, none, UNI-V3]
-ERC777: [e.g. any, none, {token name}]
-FEE-ON-TRANSFER: [e.g. any, none, {token name}]
-REBASING TOKENS: [e.g. any, none, {token name}]
-ADMIN: [trusted, restricted, n/a]
-EXTERNAL-ADMINS: [trusted, restricted, n/a]
+DEPLOYMENT: Goerli, Optimism Goerli
+ERC20: DAI
+ERC721: none
+ERC777: none
+FEE-ON-TRANSFER: none
+REBASING TOKENS: none
+ADMIN: restricted
+EXTERNAL-ADMINS: restricted
 ```
 
 In case of restricted, by default Sherlock does not consider direct protocol rug pulls as a valid issue unless the protocol clearly describes in detail the conditions for these restrictions. 
@@ -33,4 +32,42 @@ Example:
 
 # Audit scope
 
-# About {project}
+```
+IAssetManager.sol
+IDai.sol
+IMarketRegistry.sol	
+IUDai.sol		
+IUnionToken.sol
+Controller.sol
+OpOwner.sol
+UnionLens.sol
+WadRayMath.sol
+AaveV3Adapter.sol
+AssetManager.sol
+PureTokenAdapter.sol
+IComptroller.sol	
+IInterestRateModel.sol	
+IMoneyMarketAdapter.sol	
+IUToken.sol		
+IUserManager.sol
+FixedInterestRateModel.sol	
+MarketRegistry.sol		
+UDai.sol			
+UErc20.sol			
+UToken.sol
+Comptroller.sol		
+OpConnector.sol		
+OpUNION.sol		
+Whitelistable.sol
+UserManager.sol		
+UserManagerDAI.sol	
+UserManagerERC20.sol	
+UserManagerOp.sol
+```
+
+# About Union Finance
+
+Union is a member-owned credit protocol built on Ethereum where members can underwrite lines of credit to other member addresses.
+Union operates as a DAO and enables any address to accumulate a credit line on-chain in a permission-less, crypto-native way. The protocol itself is not an underwriter of risk, but rather a mechanism to lower the cost of coordinating trust into available credit.
+
+By aggregating lines of credit, Union Members can source capital at a lower cost than any single member could on their own. This enables a virtuous circle of more available credit, lower borrowing costs, and increased lending activity.
