@@ -19,7 +19,7 @@ Built using [foundry](https://book.getfoundry.sh/) and [hardhat](https://hardhat
 To install dependencies:
 
 ```
-git clone git@github.com:unioncredit/union-v2-contracts.git && cd union-v2-contracts
+git clone git@github.com:sherlock-audit/2023-02-union.git && cd 2023-02-union/union-v2-contracts/
 yarn install
 ```
 
