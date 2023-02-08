@@ -6,13 +6,13 @@ Built using [foundry](https://book.getfoundry.sh/) and [hardhat](https://hardhat
 
 -   Goerli
 
-    -   [contract addresses](https://github.com/unioncredit/union-v2-contracts/blob/master/deployments/goerli/deployment.json)
-    -   [deployment config](https://github.com/unioncredit/union-v2-contracts/blob/master/deployments/goerli/config.json)
+    -   [contract addresses](https://github.com/sherlock-audit/2023-02-union/blob/main/union-v2-contracts/deployments/goerli/deployment.json)
+    -   [deployment config](https://github.com/sherlock-audit/2023-02-union/blob/main/union-v2-contracts/deployments/goerli/config.json)
 
 -   Optimism Goerli
 
-    -   [contract addresses](https://github.com/unioncredit/union-v2-contracts/blob/master/deployments/optimism-goerli/deployment.json)
-    -   [deployment config](https://github.com/unioncredit/union-v2-contracts/blob/master/deployments/optimism-goerli/config.json)
+    -   [contract addresses](https://github.com/sherlock-audit/2023-02-union/blob/main/union-v2-contracts/deployments/optimism-goerli/deployment.json)
+    -   [deployment config](https://github.com/sherlock-audit/2023-02-union/blob/main/union-v2-contracts/deployments/optimism-goerli/config.json)
 
 ## Install
 
