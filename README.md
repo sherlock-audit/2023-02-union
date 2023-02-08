@@ -65,6 +65,10 @@ UserManagerERC20.sol
 UserManagerOp.sol
 ```
 
+# Known issues
+
+https://github.com/sherlock-audit/2022-10-union-finance-judging/issues
+
 # About Union Finance
 
 Union is a member-owned credit protocol built on Ethereum where members can underwrite lines of credit to other member addresses.
